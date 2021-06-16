@@ -1,5 +1,5 @@
-const bars = document.getElementById('bars')
-const menu = document.getElementById('menu')
+const bars = document.getElementById('bars');
+const menu = document.getElementById('menu');
 
 bars.addEventListener('click', () => {
     if(menu.classList.contains('hidden') && window.innerWidth < 768) {
@@ -35,4 +35,4 @@ window.addEventListener('resize', () => {
             '-to-blue-300'
         );
     }
-})
+});
